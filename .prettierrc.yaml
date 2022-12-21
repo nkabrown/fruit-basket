@@ -1,0 +1,14 @@
+printWidth: 120
+arrowParens: avoid
+trailingComma: none
+overrides:
+  - files:
+      - "*.js"
+      - "*.mjs"
+      - "*.ts"
+    options:
+      singleQuote: true
+      bracketSameLine: true
+  - files: "*.md"
+    options:
+      tabWidth: 4
